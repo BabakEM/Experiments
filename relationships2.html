@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<title>CSS Relationships</title>
+
+<style>
+section:nth-child(2n+2) > h1 {
+	color:red;
+} 
+
+article a { color:green; }
+
+article p + a { color:yellow; }
+
+article p + a:hover { color:orange;}
+</style>
+
+</head>
+
+<body>
+
+<div class="Main-Content">
+
+<section class="Articles">
+
+
+<h1>Latest Posts</h1>
+
+<article>
+	<h1>Today's rants</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ...
+	<a href="#">More</a></p>
+	<a href="#">Rate</a>
+</article>
+
+<article>
+	<h1>Yesterday's rants</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ...
+	<a href="#">More</a></p>
+	<a href="#">Rate</a>
+</article>
+
+</section>
+
+<section class="Articles">
+
+<h1>Archived Posts</h1>
+
+<article>
+	<h1>old rant</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ...
+	<a href="#">More</a></p>
+	<a href="#">Rate</a>
+</article>
+
+</section>
+
+
+<section>
+<h1>Archived Posts</h1>
+
+<article>
+	<h1>old rant</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ...
+	<a href="#">More</a></p>
+	<a href="#">Rate</a>
+</article>
+
+</section>
+
+
+<section>
+<h1>Archived Posts</h1>
+
+<article>
+	<h1>old rant</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 ...
+	<a href="#">More</a></p>
+	<a href="#">Rate</a>
+</article>
+
+</section>
+<aside>
+	<section class="glossary">
+		<dl>
+			<dt>Term1</dt>
+			<dd>Definiton For Term1</dd>
+		</dl>
+	</section>
+
+</aside>
+
+</div>
+
+<footer>
+	<small>
+		&copy; 2021. &lt;ALL&gt; Rights Reserved.
+		<p>See Our <a href="#">Terms &amp; Conditions</a></p>
+	</small>
+</footer>
+
+</body>
+
+</html>
