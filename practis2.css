@@ -1,0 +1,9 @@
+fieldset {
+border: blue 4px solid;
+padding: 40px;
+margin: 40px;
+text-align: center;
+line-height: 3em;
+
+}
+footer p { border: medium solid; }

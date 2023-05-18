@@ -1,0 +1,29 @@
+a:hover{color:orange;}
+.khkh {
+	background-color: gray;
+}
+#ghadimi {
+	font-family: arial;
+}
+h1,h2,h3,h4,h5 {
+	color: #b72887;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-indent: 2em;
+    font-weight: lighter;
+}
+p.khkh {
+	font-weight: bold;
+}
+p span{
+	background-image: url(https://picsum.photos/200/300);
+	background-repeat: no-repeat;
+	background-color: red; 
+	background-position: center;
+	  }
+body {
+	background-image: url(file:///C:/Users/Bawbak/Desktop/N.FrontEnd/Aksegoorbe/ravenclaw.jpg);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+}	  
